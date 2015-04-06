@@ -33,7 +33,7 @@ public class Purposeless_Class
   	if(b > 0)
   	  happy = true;
   	else
-  		happy = false;
+      happy = false;
   }
 
 
@@ -51,7 +51,7 @@ public class Purposeless_Class
   	if(b > 0)
   	  happy = true;
   	else
-  		happy = false;
+      happy = false;
   }
 
   public String getName()
