@@ -4,35 +4,35 @@ public class Customer
 
   /*--- Fields ---*/
 
-	private String  name;
-	private int     numBurritos;
-	private boolean happy;
+  private String  name;
+  private int     numBurritos;
+  private boolean happy;
 
 
   /*--- Constructors ---*/
 
   public Customer()
   {
-  	name = "Chris";
-  	numBurritos = 0;
-  	happy = false;
+    name = "Chris";
+    numBurritos = 0;
+    happy = false;
   }
 
   public Customer(String n)
   {
-  	name = n;
-  	numBurritos = 0;
-  	happy = false;
+    name = n;
+    numBurritos = 0;
+    happy = false;
   }
 
   public Customer(String n, int b)
   {
-  	name = n;
-  	numBurritos = b;
+    name = n;
+    numBurritos = b;
 
-  	if(b > 0)
-  	  happy = true;
-  	else
+    if(b > 0)
+      happy = true;
+    else
       happy = false;
   }
 
@@ -66,22 +66,22 @@ public class Customer
 
   public void serve(int b)
   {
-  	numBurritos = numBurritos + b;
+    numBurritos = numBurritos + b;
 
-  	if(b > 0)
-  	  happy = true;
-  	else
+    if(b > 0)
+      happy = true;
+    else
       happy = false;
   }
 
   public boolean happy()
   {
-  	return happy;
+    return happy;
   }
 
   public void printStatus()
   {
-  	System.out.print("Customer: " + name + ", " + numBurritos + " Burritos ");
+    System.out.print("Customer: " + name + ", " + numBurritos + " Burritos ");
     if(happy)
       System.out.println(":D");
     else
