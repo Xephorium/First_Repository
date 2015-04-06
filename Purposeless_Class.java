@@ -54,6 +54,16 @@ public class Purposeless_Class
   		happy = false;
   }
 
+  public String getName()
+  {
+  	return name;
+  }
+
+  public void setName(String n)
+  {
+  	name = n;
+  }
+
   public boolean happy()
   {
   	return happy;
