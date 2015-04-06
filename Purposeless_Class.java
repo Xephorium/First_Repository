@@ -68,4 +68,13 @@ public class Purposeless_Class
   {
   	return happy;
   }
+
+  public void printReport()
+  {
+  	System.out.print(name + ": " + numBurritos + " Burritos ");
+    if(happy)
+      System.out.println(":D");
+    else
+      System.out.println(":(");
+  }
 }
