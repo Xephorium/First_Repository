@@ -1,0 +1,50 @@
+//////////////////////////////
+//       Introduction       //
+//////////////////////////////
+
+  GitHub is a platform for collaboration on programming projects. Intimidating
+lingo and functions aside, it's simply a tool by which teams can work together
+to create software without the fear of accidentally overriding or destroying
+valuable code.
+
+Notes
+  - Git: Change-tracking client software on which GitHub is built
+  - Repository (Repo): The basic unit of GitHub. A collection of
+                       any files and folders that are neccesary for
+                       a project. Usually contains a README.txt.
+  - Branch: A duplicate of a repository used to add features or change
+            code without breaking the 'master' (default) branch. Once
+            the appropriate changes have been made to a branch, it can
+            be pulled into the master to update the project.
+  - Commits: Saved changes to the branch of a repository. When commented
+             properly, commits read like a change history of a project.
+
+
+//////////////////////////////
+//   Collaboration Models   //
+//////////////////////////////
+
+/*--- Fork & Pull ---*/
+
+  "The fork & pull model lets anyone fork an existing repository and push changes
+to their personal fork without requiring access be granted to the source repository.
+The changes must then be pulled into the source repository by the project maintainer."(1)
+
+  Therefore, forking a project is basically creating a personal copy of that project
+to which we can push whatever changes we want. However, if the changes are to be integrated
+to the source, a pull request needs to be created by the forker and verified by source
+project maintainer.
+
+/*--- Shared Repository ---*/
+
+  Usually reserved for small teams and private projects, this model grants everyone push
+access to the same repository. Topic branches are used to isolate changes. 
+
+
+//////////////////////////////
+//          Sources         //
+//////////////////////////////
+
+(1) https://help.github.com/articles/using-pull-requests/
+
+(2) https://guides.github.com/activities/hello-world/
