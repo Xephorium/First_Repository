@@ -81,7 +81,7 @@ public class Customer
 
   public void printStatus()
   {
-    System.out.print("Customer: " + name + ", " + numBurritos + " Burritos ");
+    System.out.print(" Customer: " + name + ", " + numBurritos + " Burritos ");
     if(happy)
       System.out.println(":D");
     else

@@ -1,16 +1,40 @@
 
+import java.util.Scanner;
+
 public class Buffet_Driver
 {
   public static void main(String[] args)
   {
-    Customer cust1 = new Customer("Ricky", 0);
+    // Variable Declarations
+    int numCustomers;
+    Scanner reader = new Scanner(System.in);
 
+    // Prompt User for Number Customers
     System.out.println("\nWelcome to Burrito Buffet!");
-    cust1.printStatus();
+    System.out.print("> Enter Number of Customers: ");
+    numCustomers = reader.nextInt();
 
-    System.out.println("\nServing" + cust1.getName());
-    cust1.serve();
-    
-    cust1.printStatus();
+    // Create Array of Customers
+    Customer[] house = new Customer[numCustomers];
+
+    // Input Customer Data
+    for(int x = 0; x < numCustomers; x++)
+    {
+      String name;
+      int burritos;
+
+      System.out.print("> Enter Customer " + (x+1) + " Name: ");
+      name = reader.next();
+      System.out.print("> Enter Customer " + (x+1) + " Burritos: ");
+      burritos = reader.nextInt();
+
+      house[x] = new Customer(name, burritos);
+    }
+
+    // Print Customer Data
+    System.out.println("");
+    for(int x = 0; x < numCustomers; x++)
+      house[x].printStatus();
+
   }
 }
