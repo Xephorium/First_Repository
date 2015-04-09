@@ -1,3 +1,13 @@
+/*
+  Christopher Cruzen                                     GitHub Basics
+  "Customer.java"                                           04.06.2015
+
+  Burrito Buffet Customer Class
+
+    Each customer should have a name, number of burritos, and state
+  (happy  or sad). State is determined by number of burritos.
+
+*/
 
 public class Customer
 {

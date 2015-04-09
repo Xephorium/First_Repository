@@ -1,3 +1,13 @@
+/*
+  Christopher Cruzen                                     GitHub Basics
+  "Buffet_Driver.java"                                      04.06.2015
+
+  Burrito Buffet Driver File
+
+    Input data about a user specified number of customers into an
+  array of Customer objects. Then, print the data.
+
+*/
 
 import java.util.Scanner;
 
